@@ -19,7 +19,7 @@ public class SimpleXMLReader {
 		return xmlConfig.getString(fieldName);
 	}
 
-	public List getMultiParameter(String fieldName) {
+	public List<Object> getMultiParameter(String fieldName) {
 		return xmlConfig.getList(fieldName);
 	}
 }
