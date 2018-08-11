@@ -1,5 +1,10 @@
-/target/
+target/
 *.class
 *.jar
 *.war
-*.bin
+*.ear
+*.logs
+*.iml
+.idea/
+.eclipse
+
